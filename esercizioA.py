@@ -8,3 +8,5 @@ mydb = mysql.connector.connect(
 )
 mycursor = mydb.cursor()
 mycursor.execute("CREATE TABLE mammiferi (id int, nome_proprio VARCHAR(255), razza VARCHAR(255), peso int, eta int)")
+
+#commento
